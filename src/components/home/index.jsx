@@ -149,7 +149,7 @@ const Home = () => {
 
 
                 </div>
-                <div>
+                <div className='bottom-container'>
                     <h2>Posted by {name}</h2>
                     <ul className='ul-items-post'>
                         {posts.map(eachPost => (
