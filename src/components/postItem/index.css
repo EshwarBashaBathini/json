@@ -1,0 +1,23 @@
+.post-item{
+    background-color: #f7fafa;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 5px;
+    width: 370px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profile-container{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.h7{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
