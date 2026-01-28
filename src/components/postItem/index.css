@@ -5,19 +5,19 @@
     padding: 16px;
     margin: 10px;
     width: 370px;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
 }
 .profile-container{
     display: flex;
     align-items: center; 
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     
 }
 .h7{
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 

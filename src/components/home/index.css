@@ -53,7 +53,7 @@
     height: 20vh;
 }
 .heading{
-    font-size: 30px;
+    font-size: 25px;
 }
 .container-info{
     padding: 10px;
@@ -61,8 +61,8 @@
 
 .flex{
     display: flex;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 23px;
+    margin-top: 18px;
     
 }
 
@@ -78,7 +78,7 @@ ul{
     list-style-type: none;
 }
 .content-heading{
-    font-size: 20px;
+    font-size: 18px;
     color: #9da3a3;
     font-weight: bolder;
     padding-bottom: 10px;
@@ -87,5 +87,5 @@ ul{
     
  
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
