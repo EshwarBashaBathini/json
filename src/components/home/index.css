@@ -20,15 +20,25 @@
 
 
 
-
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
 .ul-items-post{
     width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul-items-similar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .display-flex{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    
 }
 
 .box-profile{
