@@ -15,8 +15,6 @@ const PostItem = (props) => {
     }
         
 
-    console.log(userDetails)
-
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
             .then(res => res.json())

@@ -11,8 +11,7 @@ import PostItem from '../postItem';
 
 const Home = () => {
 
-    const {userId} = useParams()
-    console.log(userId)    
+    const {userId} = useParams()  
     const [user, setUser] = useState({})
     const [posts,setPost] = useState([])
     const { email, id, name, phone, username, website, address = {}, company = {} } = user
@@ -24,14 +23,13 @@ const Home = () => {
             .then(res => res.json())
             .then(data => {
                 setUser(data)
-                console.log(data)
-                console.log("hiiii is it working")
+                
             })
         fetch (`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)   
             .then(res => res.json())
             .then(data => {
                 setPost(data)
-                console.log(data)
+               
             }) 
     }, [userId])
     

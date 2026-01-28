@@ -16,7 +16,7 @@ const Posts = () => {
                 setPosts(data);
                 
             });
-    }, );
+    }, []);
 
     return (
        <div className='container'>
