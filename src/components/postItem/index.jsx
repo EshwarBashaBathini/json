@@ -13,7 +13,7 @@ const PostItem = (props) => {
     const onProfile = () => {
         navigate(`/users/${userId}`)
     }
-    
+        
 
     console.log(userDetails)
 
