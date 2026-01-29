@@ -12,7 +12,7 @@
 .container-box {
     border-radius: 10px;
     width: 50vw;
-    background-color: white;
+    background-color: rgb(243, 242, 242);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     height: fit-content;
     /* 🔑 force content height */
@@ -36,6 +36,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 20px;
+    background-color:  #9dd3c8;
 }
 
 .ul-items-post {
