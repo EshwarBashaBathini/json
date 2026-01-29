@@ -1,16 +1,23 @@
-.post-list{
+.post-list {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-evenly;
-    
+
 }
 
 
-
-.container{
-    background-color: #ebf5f3;
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     width: 100vw;
-    
 }
 
+.container {
+    background-color: #ebf5f3;
+
+
+}

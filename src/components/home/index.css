@@ -1,49 +1,63 @@
-.ul-items{
+.ul-items {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-*{
+* {
     font-family: 'Courier New', Courier, monospace;
 }
 
 .container-box {
-  border-radius: 10px;
-  width: 50vw;
-  background-color: white;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  height: fit-content; /* 🔑 force content height */
+    border-radius: 10px;
+    width: 50vw;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    height: fit-content;
+    /* 🔑 force content height */
+
+}
+
+.loading-pi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 
 }
 
 
 
-.top-container{
+.top-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 20px;
 }
-.ul-items-post{
+
+.ul-items-post {
     width: 40vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.ul-items-similar{
+
+.ul-items-similar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
     justify-content: space-between;
 }
 
-.box-profile{
-    background: linear-gradient(#7b59f7,#7657e6);
+.box-profile {
+    background: linear-gradient(#7b59f7, #7657e6);
     display: flex;
     flex-direction: column;
     border-top-left-radius: 10px;
@@ -53,65 +67,73 @@
     align-items: center;
     height: 20vh;
 }
-.heading{
+
+.heading {
     font-size: 25px;
 }
-.container-info{
+
+.container-info {
     padding: 10px;
 }
 
-.flex{
+.flex {
     display: flex;
     font-size: 23px;
     margin-top: 18px;
-    
+
 }
 
-.flex-head{
+.flex-head {
     margin-left: 8px;
 }
-.content{
+
+.content {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-.content-heading{
+
+.content-heading {
     font-size: 18px;
     color: #9da3a3;
     font-weight: bolder;
     padding-bottom: 10px;
 }
-.content-para{
-    
- 
+
+.content-para {
+
+
     padding-bottom: 10px;
     font-size: 18px;
 }
 
-.bottom-container{
+.bottom-container {
     display: flex;
     flex-direction: column;
     width: 45%;
-  
+
 }
 
-@media only screen and (max-width: 600px){
-    .display-flex{
+@media only screen and (max-width: 600px) {
+    .display-flex {
         flex-direction: column;
     }
-    .container-box{
+
+    .container-box {
         width: 90vw;
         margin-bottom: 10px;
 
 
     }
-    .bottom-container{
+
+    .bottom-container {
         width: 90vw;
     }
-    .ul-items-post{
+
+    .ul-items-post {
         width: 100%;
         justify-content: center;
     }
